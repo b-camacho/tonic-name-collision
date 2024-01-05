@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package foo;
+
+service Foo {
+    rpc Connect (Req) returns (Res);
+}
+
+message Req { string s = 1; }
+
+message Res { string s = 1; }
