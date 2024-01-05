@@ -1,0 +1,4 @@
+```
+nix develop
+cargo run
+```
